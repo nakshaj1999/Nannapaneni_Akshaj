@@ -12,6 +12,7 @@
   
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="resources/disp/aos/aos.css" rel="stylesheet">
   <link href="resources/disp/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -25,12 +26,6 @@
 		body::-webkit-scrollbar {
 		  display: none;
 		}
-            .navbar{
-                        background-color: rgb(0,0,0); /* Fallback color */
-          background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
-          color: white;
-          height: 60px;
-            }
   </style>
 
 </head>
@@ -41,7 +36,10 @@
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
     <nav>
-      <nav class="navbar navbar-expand-sm fixed-top navbar-dark ">       
+      <nav class="navbar navbar-expand-sm fixed-top navbar-dark " style="background-color: rgb(0,0,0); /* Fallback color */
+          background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
+          color: white;
+          height: 60px;">       
         
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu">
           <span class="navbar-toggler-icon"></span>
@@ -124,15 +122,15 @@
             <div class="count-box">
               <i class="bi bi-terminal-fill"></i>
               <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="100" class="purecounter"></span>
-              <p><strong>Projects</strong> Done</p>
+              <p><strong>Projects</strong></p>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="count-box">
               <i class="bi bi-card-heading"></i>
-              <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="100" class="purecounter"></span>
-              <p><strong>Certifications</strong> Achieved</p>
+              <span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="100" class="purecounter"></span>
+              <p><strong>Certifications</strong></p>
             </div>
           </div>
           
@@ -141,7 +139,7 @@
             <div class="count-box">
               <i class="fa fa-language" aria-hidden="true" style="margin-top: 30px;"></i>
               <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Languages</strong> known</p>
+              <p><strong>Languages</strong></p>
             </div>
           </div>
 
@@ -372,17 +370,19 @@
   <header id="header" style="width: 80px;top:40%;height: 200px;background-color: rgb(100,255,255,0.8);">
     <div class="d-flex flex-column" >
 
-      <div class="profile">
-        <div class="social-links mt-3 text-center flex-column">
-          <a href="https://www.instagram.com/akshajnan/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
-        </div>
-        <div class="social-links mt-3 text-center flex-column">
-          <a href="https://www.linkedin.com/in/nannapaneni-akshaj/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        </div>
-        <div class="social-links mt-3 text-center flex-column">
-          <a href="https://www.facebook.com/n.akshaj.5/" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
-        </div>
 
+        <nav id="navbar" class="nav-menu navbar">
+        	 <div class="profile">
+	        <div class="social-links mt-3 text-center flex-column">
+	          <a href="https://www.instagram.com/akshajnan/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+	        </div>
+	        <div class="social-links mt-3 text-center flex-column">
+	          <a href="https://www.linkedin.com/in/nannapaneni-akshaj/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+	        </div>
+	        <div class="social-links mt-3 text-center flex-column">
+	          <a href="https://www.facebook.com/n.akshaj.5/" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+	        </div>
+        </nav>
       </div>
     </div>
   </header>
